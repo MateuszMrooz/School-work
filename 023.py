@@ -1,0 +1,5 @@
+x = input('Enter the first line of a nursery rhyme ')
+print(len(x))
+y = int(input('Enter a start number '))
+z = int(input('Enter an end number '))
+print(x[y:z])

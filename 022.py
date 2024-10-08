@@ -1,0 +1,5 @@
+x = input('Enter your first name in lower case ')
+y = input('Enter you surname in lower case ')
+x = x.upper()
+y = y.upper()
+print(x+' '+y)
