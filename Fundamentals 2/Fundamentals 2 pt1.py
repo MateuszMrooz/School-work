@@ -1,0 +1,5 @@
+x = int(input('Enter how long it takes for person 1 do do the job '))
+y = int(input('Enter how long it takes for person 2 do do the job '))
+z = int(input('Enter how long it takes for person 3 do do the job '))
+time = x*y*z/(x*y + y*z + x*z)
+print('It will take them all',time,'days to finish the job')
